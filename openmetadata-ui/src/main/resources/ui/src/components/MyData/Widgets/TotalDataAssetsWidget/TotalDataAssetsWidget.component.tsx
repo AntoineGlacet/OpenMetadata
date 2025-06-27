@@ -232,6 +232,7 @@ const TotalDataAssetsWidget = ({
                       fill={entityChartColor(i) ?? getRandomHexColor()}
                       key={label}
                       name={label}
+                      stackID="data"
                       stroke={entityChartColor(i) ?? getRandomHexColor()}
                     />
                   ))}
